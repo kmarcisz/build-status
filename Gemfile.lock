@@ -1,0 +1,26 @@
+GIT
+  remote: https://github.com/kmarcisz/gitlab.git
+  revision: cda655df655b38b50142ed7a85c29a10b6327d59
+  specs:
+    gitlab (3.6.1)
+      httparty
+      terminal-table
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    httparty (0.13.7)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    json (1.8.3)
+    multi_xml (0.5.5)
+    terminal-table (1.5.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  gitlab!
+
+BUNDLED WITH
+   1.11.2
